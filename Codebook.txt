@@ -1,0 +1,293 @@
+DATA DICTIONARY - Getting and Cleaning Data Project Submission 
+
+sub	 
+	Subject ID 
+		1-30 : De-identified subject id 
+act
+	Activity Code
+		1 1.Walking            
+		2 2.Walking_Upstairs   
+		3 3.Walking_downstairs 
+		4 4.Sitting 
+		5 5.Standing           
+		6 6.Laying
+**ALL FOLLOWING INDICATORS ARE NORMALIZED AND BOUNDED WITHIN [-1,1]
+tbodyaccmeanxavg
+	Average of all values of the mean of Body Acceleration signal of X axis using low pass Butterworth filter with a corner frequency of 0.3 Hz 
+	-1.1: seconds
+
+tbodyaccmeanyavg
+	Average of all values of the mean of Body Acceleration signal of Y axis using low pass Butterworth filter with a corner frequency of 0.3 Hz 
+	-1.1: seconds
+
+tbodyaccmeanzavg
+	Average of all values of the mean of Body Acceleration signal of Z axis using low pass Butterworth filter with a corner frequency of 0.3 Hz 
+	-1.1: seconds
+
+tbodyaccstdxavg
+	Average of all values of the standard deviation of Body Acceleration signal of X axis using low pass Butterworth filter with a corner frequency of 0.3 Hz 
+	-1.1: seconds
+
+tbodyaccstdyavg
+	Average of all values of the standard deviation of Body Acceleration signal of Y axis using low pass Butterworth filter with a corner frequency of 0.3 Hz 
+	-1.1: seconds
+
+tbodyaccstdzavg
+	Average of all values of the standard deviation of Body Acceleration signal of Z axis using low pass Butterworth filter with a corner frequency of 0.3 Hz 
+	-1.1: seconds
+
+
+tgravityaccmeanxavg
+	Average of all values of the mean of the gravity Acceleration signal of X axis using low pass Butterworth filter with a corner frequency of 0.3 Hz 
+	-1.1: seconds
+
+tgravityaccmeanyavg
+	Average of all values of the mean of the gravity Acceleration signal of Y axis using low pass Butterworth filter with a corner frequency of 0.3 Hz 
+	-1.1: seconds
+
+tgravityaccmeanzavg
+	Average of all values of the mean of the gravity Acceleration signal of Z axis using low pass Butterworth filter with a corner frequency of 0.3 Hz 
+	-1.1: seconds
+
+tgravityaccstdxavg
+	Average of all values of the standard deviation of the gravity Acceleration signal of X axis using low pass Butterworth filter with a corner frequency of 0.3 Hz 
+	-1.1: seconds
+
+tgravityaccstdyavg  
+	Average of all values of the standard deviation of the gravity Acceleration signal of Y axis using low pass Butterworth filter with a corner frequency of 0.3 Hz 
+	-1.1: seconds
+
+tgravityaccstdzavg  
+	Average of all values of the standard deviation of the gravity Acceleration signal of Z axis using low pass Butterworth filter with a corner frequency of 0.3 Hz 
+	-1.1: seconds
+
+tbodyaccjerkmeanxavg  
+	Average of mean of all observations of the X axis of the body linear acceleration to obtain Jerk signals 
+	-1.1: seconds
+
+
+tbodyaccjerkmeanyavg  
+	Average of mean of all observations of the Y axis of the body linear acceleration to obtain Jerk signals 
+	-1.1: seconds
+
+tbodyaccjerkmeanzavg  
+	Average of mean of all observations of the Z axis of the body linear acceleration to obtain Jerk signals 
+	-1.1: seconds
+
+tbodyaccjerkstdxavg  
+	Average of standard deviation of all observations of the X axis of the body linear acceleration to obtain Jerk signals 
+	-1.1: seconds
+
+tbodyaccjerkstdyavg  
+	Average of standard deviation of all observations of the Y axis of the body linear acceleration to obtain Jerk signals 
+	-1.1: seconds
+
+tbodyaccjerkstdzavg  
+	Average of standard deviation of all observations of the Z axis of the body linear acceleration to obtain Jerk signals 
+	-1.1: seconds
+ 
+
+tbodygyromeanxavg  
+	Average of the mean of all observations of X axis of gyroscope 3-axial raw signals captured at a constant rate of 50 Hz
+	-1.1: seconds
+
+tbodygyromeanyavg  
+	Average of the mean of all observations of Y axis of gyroscope 3-axial raw signals captured at a constant rate of 50 Hz
+	-1.1: seconds
+
+tbodygyromeanzavg  
+	Average of the mean of all observations of Z axis of gyroscope 3-axial raw signals captured at a constant rate of 50 Hz
+	-1.1: seconds
+
+tbodygyrostdxavg  
+	Average of the standard deviation of all observations of X axis of gyroscope 3-axial raw signals captured at a constant rate of 50 Hz
+	-1.1: seconds
+
+tbodygyrostdyavg  
+	Average of the standard deviation of all observations of Y axis of gyroscope 3-axial raw signals captured at a constant rate of 50 Hz
+	-1.1: seconds
+
+tbodygyrostdzavg  
+	Average of the standard deviation of all observations of Z axis of gyroscope 3-axial raw signals captured at a constant rate of 50 Hz
+	-1.1: seconds
+
+
+tbodygyrojerkmeanxavg  
+	Average of the mean of all observations of the X axis of the angular velocity derived in time to obtain Jerk signals 
+	-1.1: seconds
+ 
+tbodygyrojerkmeanyavg  
+	Average of the mean of all observations of the Y axis of the angular velocity derived in time to obtain Jerk signals 
+	-1.1: seconds
+
+tbodygyrojerkmeanzavg  
+	Average of the mean of all observations of the Z axis of the angular velocity derived in time to obtain Jerk signals 
+	-1.1: seconds
+
+tbodygyrojerkstdxavg  
+	Average of the standard deviation of all observations of the X axis of the angular velocity derived in time to obtain Jerk signals 
+	-1.1: seconds
+
+tbodygyrojerkstdyavg  
+	Average of the standard deviation of all observations of the Y axis of the angular velocity derived in time to obtain Jerk signals 
+	-1.1: seconds
+
+tbodygyrojerkstdzavg  
+	Average of the standard deviation of all observations of the Z axis of the angular velocity derived in time to obtain Jerk signals 
+	-1.1: seconds
+
+
+tbodyaccmagmeanavg  
+	Average of all values of the mean of the Euclidean form of Body Acceleration signal using low pass Butterworth filter with a corner frequency of 0.3 Hz 
+	-1.1: seconds
+
+tbodyaccmagstdavg  
+	Average of all values of the standard deviation of the Euclidean form of Body Acceleration signal using low pass Butterworth filter with a corner frequency of 0.3 Hz 
+	-1.1: seconds
+
+
+tgravityaccmagmeanavg 
+	Average of all observations of the mean of the Euclidean Form of the gravity Acceleration three dimensional signal using low pass Butterworth filter with a corner frequency of 0.3 Hz  
+	-1.1: seconds
+
+tgravityaccmagstdavg  
+	Average of all observations of the standard deviation of the Euclidean Form of the gravity Acceleration three dimensional signal using low pass Butterworth filter with a corner frequency of 0.3 Hz  
+	-1.1: seconds
+
+
+tbodyaccjerkmagmeanavg  
+	Average of the mean of all observations of the Euclidean form of the three dimensional body linear acceleration signals 
+	-1.1: seconds
+
+tbodyaccjerkmagstdavg  
+	Average of the standard deviation of all observations of the Euclidean form of the three dimensional body linear acceleration signals 
+	-1.1: seconds
+
+tbodygyromagmeanavg   
+	Average of the mean of all observations of the Euclidean form of gyroscope 3-axial raw signals captured at a constant rate of 50 Hz
+	-1.1: seconds
+
+tbodygyromagstdavg  
+	Average of the standard devation of all observations of the Euclidean form of gyroscope 3-axial raw signals captured at a constant rate of 50 Hz
+	-1.1: seconds
+
+
+tbodygyrojerkmagmeanavg  
+	Average of the mean of the Euclidean form of all observations of the three axis angular velocity derived in time to obtain Jerk signals 
+	-1.1: seconds
+
+tbodygyrojerkmagstdavg  
+	Average of the standard deviation of the Euclidean form of all observations of the three axis angular velocity derived in time to obtain Jerk signals
+	-1.1: seconds
+
+
+fbodyaccmeanxavg  
+	Average of the mean of all observations of the frequency domain signals of the X axis of the Fast Fourier Transform (FFT) applied to Body Accelaration derived using low pass Butterworth filter with a corner frequency of 0.3 Hz 
+	-1.1: hertz
+
+fbodyaccmeanyavg  
+	Average of the mean of all observations of the frequency domain signals of the Y axis of the Fast Fourier Transform (FFT) applied to Body Accelaration derived using low pass Butterworth filter with a corner frequency of 0.3 Hz 
+	-1.1: hertz
+
+fbodyaccmeanzavg  
+	Average of the mean of all observations of the frequency domain signals of the Z axis of the Fast Fourier Transform (FFT) applied to Body Accelaration derived using low pass Butterworth filter with a corner frequency of 0.3 Hz 
+	-1.1: hertz
+
+fbodyaccstdxavg  
+	Average of the standard deviation of all observations of the frequency domain signals of the X axis of the Fast Fourier Transform (FFT) applied to Body Accelaration derived using low pass Butterworth filter with a corner frequency of 0.3 Hz 
+	-1.1: hertz
+
+fbodyaccstdyavg  
+	Average of the standard deviation of all observations of the frequency domain signals of the Y axis of the Fast Fourier Transform (FFT) applied to Body Accelaration derived using low pass Butterworth filter with a corner frequency of 0.3 Hz 
+	-1.1: hertz
+
+fbodyaccstdzavg  
+	Average of the standard deviation of all observations of the frequency domain signals of the Z axis of the Fast Fourier Transform (FFT) applied to Body Accelaration derived using low pass Butterworth filter with a corner frequency of 0.3 Hz 
+	-1.1: hertz
+
+
+
+fbodyaccjerkmeanxavg
+	Average of mean of all observations of the frequency domain signals of the X axis of the Fast Fourier Transform (FFT) applied to the body linear acceleration to obtain Jerk signals
+	-1.1: hertz
+
+fbodyaccjerkmeanyavg  
+	Average of mean of all observations of the frequency domain signals of the Y axis of the Fast Fourier Transform (FFT) applied to the body linear acceleration to obtain Jerk signals
+	-1.1: hertz
+
+fbodyaccjerkmeanzavg  
+	Average of mean of all observations of the frequency domain signals of the Z axis of the Fast Fourier Transform (FFT) applied to the body linear acceleration to obtain Jerk signals
+	-1.1: hertz
+
+fbodyaccjerkstdxavg  
+	Average of standard deviation of all observations of the frequency domain signals of the X axis of the Fast Fourier Transform (FFT) applied to the body linear acceleration to obtain Jerk signals
+	-1.1: hertz
+
+fbodyaccjerkstdyavg  
+	Average of standard deviation of all observations of the frequency domain signals of the Y axis of the Fast Fourier Transform (FFT) applied to the body linear acceleration to obtain Jerk signals
+	-1.1: hertz
+
+fbodyaccjerkstdzavg  	
+	Average of standard deviation of all observations of the frequency domain signals of the Z axis of the Fast Fourier Transform (FFT) applied to the body linear acceleration to obtain Jerk signals
+	-1.1: hertz
+
+
+fbodygyromeanxavg  
+	Average of the mean of all observations of the frequency domain signals of the X axis of the Fast Fourier Transform (FFT) applied to gyroscope 3-axial raw signals captured at a constant rate of 50 Hz
+	-1.1: hertz
+
+fbodygyromeanyavg  
+	verage of the mean of all observations of the frequency domain signals of the Y axis of the Fast Fourier Transform (FFT) applied to gyroscope 3-axial raw signals captured at a constant rate of 50 Hz
+	-1.1: Hertz
+
+fbodygyromeanzavg  
+	Average of the mean of all observations of the frequency domain signals of the Z axis of the Fast Fourier Transform (FFT) applied to gyroscope 3-axial raw signals captured at a constant rate of 50 Hz
+	-1.1: hertz
+
+fbodygyrostdxavg  
+	Average of the standard deviation of all observations of the frequency domain signals of the X axis of the Fast Fourier Transform (FFT) applied to gyroscope 3-axial raw signals captured at a constant rate of 50 Hz
+	-1.1: hertz
+
+fbodygyrostdyavg  
+	Average of the standard deviation of all observations of the frequency domain signals of the Y axis of the Fast Fourier Transform (FFT) applied to gyroscope 3-axial raw signals captured at a constant rate of 50 Hz
+	-1.1: hertz
+
+fbodygyrostdzavg  
+	Average of the standard deviation of all observations of the frequency domain signals of the Z axis of the Fast Fourier Transform (FFT) applied to gyroscope 3-axial raw signals captured at a constant rate of 50 Hz
+	-1.1: hertz
+
+
+fbodyaccmagmeanavg  
+	Average of all values of the mean of the frequency of the Fast Fourier Transform (FFT) applied to the Euclidean form of Body Acceleration signal using low pass Butterworth filter with a corner frequency of 0.3 Hz 
+	-1.1: hertz
+
+fbodyaccmagstdavg  
+	Average of all values of the standard deviation of the frequency of the Fast Fourier Transform (FFT) applied to the Euclidean form of Body Acceleration signal using low pass Butterworth filter with a corner frequency of 0.3 Hz 
+	-1.1: hertz
+
+
+fbodybodyaccjerkmagmeanavg  
+	Average of all observations of the mean of the frequency of the Fast Fourier Transform (FFT) applied to the Euclidean Form of the gravity Acceleration three dimensional signal using low pass Butterworth filter with a corner frequency of 0.3 Hz  
+	-1.1: hertz
+
+fbodybodyaccjerkmagstdavg  
+	Average of all observations of the standard deviation of the frequency of the Fast Fourier Transform (FFT) applied to the Euclidean Form of the gravity Acceleration three dimensional signal using low pass Butterworth filter with a corner frequency of 0.3 Hz  
+	-1.1:hertz
+
+
+fbodybodygyromagmeanavg  
+	Average of the mean of all observations of the frequency of the Fast Fourier Transform (FFT) applied to the Euclidean form of gyroscope 3-axial raw signals captured at a constant rate of 50 Hz
+	-1.1: hertz
+
+fbodybodygyromagstdavg  
+	Average of the  standard deviatio of all observations of the frequency of the Fast Fourier Transform (FFT) applied to the Euclidean form of gyroscope 3-axial raw signals captured at a constant rate of 50 Hz
+	-1.1: hertz
+
+
+fbodybodygyrojerkmagmeanavg  
+	Average of the mean of the frequency of the Fast Fourier Transform (FFT) applied to the Euclidean form of all observations of the three axis angular velocity derived in time to obtain Jerk signals 
+	-1.1: hertz
+
+fbodybodygyrojerkmagstdavg  
+	Average of the standard deviation of the frequency of the Fast Fourier Transform (FFT) applied to the Euclidean form of all observations of the three axis angular velocity derived in time to obtain Jerk signals 
+	-1.1: hertz
